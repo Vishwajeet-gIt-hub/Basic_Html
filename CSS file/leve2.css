@@ -1,0 +1,43 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: rgb(248, 7, 88);
+    margin:10px;
+    padding:10px;
+    display:  inline-block;
+    text-decoration: none;
+    display:inline-block;
+
+}
+#container{
+     width: 100px;
+    height: 100px;
+    border-radius:50%;
+    display: inline-block;
+    border: 2px darkblue;
+
+}
+
+#div1{
+    position: absolute;
+    top: 300px;
+    
+}
+#div2{
+    position: fixed;
+}
+#div3{
+    position: relative;
+    left: 200px;
+
+}nav a{
+    margin-left: 50PX;
+}
+header{
+    background-color: aquamarine;
+
+}

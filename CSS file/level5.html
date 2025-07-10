@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display block</title>
+
+
+    <style>
+
+        *
+        {
+
+
+            margin: 0;
+            padding: 0;
+        }
+
+        #box1{
+            height: 80px;
+            width: 70px;
+            background-color: aqua;  
+            margin: 10px;    
+            display: block;
+      }
+
+
+      #box3 {
+            height: 80px;
+            width: 70px;
+            background-color: rgb(110, 223, 4);  
+            margin: 10px;    
+            display:inline-block;
+            text-align: 
+            center;
+      }
+
+#box2{
+
+    display: none;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    
+<div id="box1" class="box">box1</div>
+<div id="box2" class="box">box2</div>
+<div id="box3" class="box">box3</div>
+
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative % </title>
+    <style>
+#first{
+
+    background-color: rgb(231, 134, 8);
+    height: 50px;
+    width: 200px;
+
+}
+#second
+
+
+{
+
+background-color: blue;
+height: 50%;
+width: 30%;
+
+}
+
+
+    </style>
+</head>
+<body>
+<div id="first">first 
+    <div id="second"> second
+
+    </div>
+
+
+</div>
+     
+    
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit em</title>
+
+
+    <style>
+
+#first{
+
+
+    width: 200px;
+    height: 50px;
+    background-color: rgb(8, 104, 104);
+    font-size: 10px;
+}
+
+#second{
+ 
+    width: 50%;
+    background-color: rgb(10, 43, 190);
+    font-size: 2em;
+
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="first"> first
+
+<div id="second">
+    second
+</div>
+        
+    </div>
+
+
+  
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vw/hw</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #first{
+            background-color: yellow;
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+<body>
+  
+    
+    <div id="first" >first</div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property</title>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(175, 230, 25);
+    margin: 20px;
+}
+
+#div1{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+#div3{
+    position:static;
+}
+#div2{
+    position: absolute;
+    top: 20px;
+}
+#div4{
+    position: fixed;
+   left: 70px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="div1" class="box">static1</div>
+    <div id="div2"class="box">static2</div>
+    <div id="div3" class="box">static3</div>
+    <div id="div4" class="box">static4</div>
+    <div  class="box">static2</div>
+    <div  class="box">static2</div>
+    <div  class="box">static3</div>
+    <div  class="box">static4</div>
+    <div  class="box">static2</div>
+    <div  class="box">static2</div>
+    
+    
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    
+<header> <div id= "text"> This is my first project </div><hr></header>
+<main>
+
+
+<div id="product">product</div>
+</main>
+<div></div>
+</body>
+</html> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-2</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+.Box{
+
+
+background-color: aquamarine;
+text-align: center;
+}
+#button1{
+    padding: 10px 15px ;
+    margin: 100px;
+    border: 2px dotted red;
+    border-radius: 100px;   
+    width: 70px;
+    height: 70px;
+    
+}
+
+ #box{
+width: 100px;
+height: 100px;
+
+
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div id="box" class="box"> Box</div>
+  <button id="button1">click me</button>
+    
+
+</body>
+</html> -->
